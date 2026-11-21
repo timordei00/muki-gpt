@@ -1,0 +1,3 @@
+# Početni prompt za Etapu A · V3
+
+> POKRENI ETAPU A u projektu web-professional-standards V3. Pročitaj MASTER.md i provjeri postojeći status i stvarne izlaze. Izvrši P0, P1A–P1G, P2, P3 i P4 redom, bez čekanja između faza. Poslije svake faze sačuvaj rezultat i ažuriraj PROJECT_STATUS.md. Temeljito istraži kako iz zahtjeva, zavisnosti i graničnih stanja predvidjeti nove greške prije kataloga i koda. Izradi samostalan skill koji učitava detalje po potrebi i traži moje odobrenje za trajne izmjene. Pripremi QA prema specifikaciji. Po P4 isporuči stvarne fajlove, status i popis neprovjerenog pa stani. Ako obavezni ulaz ili dokaz zaista blokira nastavak, navedi tačno šta nedostaje. Etapa B zahtijeva moju zasebnu naredbu.

@@ -1,0 +1,25 @@
+# P1C · Od autentičnog materijala do oblikovnog pravca
+
+**Odluka za P3.** Prije crtanja sekcija utvrdi šta posjetilac pokušava odlučiti i kojim stvarnim dokazom brend može potkrijepiti tu odluku. Izaberi jednu namjernu kompozicijsku odluku, zatim dosljedne odnose tipografije, boje, razmaka i slike. Uključuj samo sadržaj koji doprinosi zadatku, orijentaciji ili izričito traženom tonu. U postojećem sistemu prvo utvrdi šta je fiksni znak identiteta, a šta urednik smije mijenjati.
+
+## Dokaz i izuzetak
+
+Otvoreni izvori, 20.11.2026. Savjeti izvedeni za poslovne sajtove imaju oznaku `INFERRED`.
+
+- GDS zasniva uređivanje sadržaja na stvarnom zadatku i navodi ograničenja pretpostavki o publici. Primjena: napiši kratku rečenicu o zadatku posjetioca, pa provjeri svaki naziv u navigaciji i očekivani sljedeći korak. Javna uprava ima drugačiji cilj od ateljea ili galerije. Uživanje u razgledanju i osjećaj materijala mogu biti legitimna korisnička potreba. [GDS, Identify user needs](https://guidance.publishing.service.gov.uk/writing-to-gov-uk-standards/plan-manage-content/identify-user-needs/)
+- IBM određuje kontinuitet i promjenljive elemente vlastitog oblikovnog jezika. To je dokaz kako jedan brend upravlja odlukama, bez osnove da svi koriste njegovu paletu ili mrežu. Primjena: odredi šta mora biti prepoznatljivo nakon promjene jezika ili sadržaja; isprobaj bi li drugačija hijerarhija jasnije odgovorila stvarnom klijentu. [IBM Design Language, Principles](https://www.ibm.com/design/language/philosophy/principles/)
+- Carbon razlikuje suptilnu povratnu informaciju od rijetkih naglašenih prijelaza. WAI daje tehniku za isključenje pokreta izazvanog interakcijom. Za naš postupak jezgro zadatka je dostupno i uz smanjen pokret, tastaturu, touch ili izostanak podrške. Pri korištenju naprednog API-ja sačuvaj običnu navigaciju i provjeri podršku baš u ciljnom pregledniku. Ne učitavaj animacijsku biblioteku radi nestanka jednog panela. [Carbon, Motion](https://www.carbondesignsystem.com/building-blocks/foundations/motion/overview) · [WAI, C39](https://www.w3.org/WAI/WCAG22/Techniques/css/C39)
+- GDS za svoj obrazac povezuje sažetak grešaka s poljima i premješta fokus na sažetak. Prenosiva posljedica je da korisnik može pronaći i ispraviti grešku, zadržati prethodni unos i razumjeti ishod. Njihovo pravilo o posebnom sažetku za svaku grešku ostaje konvencija tog sistema. Za jednostavan obrazac može biti dovoljna dostupna poruka uz polje. [GDS, Error summary](https://design-system.service.gov.uk/components/error-summary/)
+- Za medij zabilježi konkretno djelo, ko ga je dostavio, pravo upotrebe, ograničenje i atribuciju prije objave. CC BY 4.0 ima obaveze atribucije i upozorava na moguća druga prava. OFL razlikuje originalni i izmijenjeni font i rezervisano ime. Provjeri licencu stvarnog fajla i dozvolu distribucije ili podskupa. Ovi tekstovi ne dokazuju licencu nijedne konkretne slike ili fonta. [Creative Commons, BY 4.0](https://creativecommons.org/licenses/by/4.0/) · [SIL, Open Font License](https://openfontlicense.org/open-font-license-official-text/)
+
+## Dva projektna pravca · ilustracije iz P1A
+
+**I-A, zavičajna zbirka.** Predložiti raspored po predmetu. Lice i naličje imaju zajedničku osnovicu, čitljive legende i dovoljno praznog prostora za rubove papira. Koristi stvarne skenove s pravom prikaza i uredničku oznaku inventara ako postoji. Skromnija tipografska skala čuva blizinu skena i opisa. Na telefonu legenda ostaje neposredno uz odgovarajući sken iz P1B. Fotografija koja glumi arhivsku građu narušila bi vjerodostojnost.
+
+**I-B, projektna rasvjeta.** Posjetilac mora razumjeti kako izbor mijenja rezultat i šta će prodaja dobiti. Organizuj rad oko crteža i imenovanih opcija, uz jasan sažetak spreman za provjeru. Ne oslanjaj se samo na boju male površine. Kontrast, vidljiv odabir i tekst naziva podupiru isti zadatak. Pokret može pokazati koji se dio prikaza promijenio ako odmah postoji jednako razumljiv statički prikaz. Muzejski raspored bi razdvojio povezane kontrole i crtež. Obrnuto, konfigurator bi nametnuo nepotrebnu odluku posjetiocu zbirke.
+
+## Predaja i buduće opažanje
+
+Za novi dizajn sačuvaj vidljivu vezu „osobina brenda ili zadatak → odluka o kompoziciji → šta korisnik treba prepoznati ili uraditi“. Odredi potvrđene fontove/pisma i probaj stvarne riječi s č, ć, đ, š i ž kad je to jezik klijenta. Bez odobrenih fotografija koristi tekst, stvarni proizvod ili jasno označenu predloženu ilustraciju u dogovorenom obimu. Bez potvrde o stručnim tvrdnjama i pravima zadrži objavu takvog sadržaja.
+
+P1D za formu treba definisati granicu prihvata i obrade. P1E dobija stanja pending, ispravljiva greška, nepoznat ishod i potvrđeni rezultat, te ručni zadatak za svako bitno stanje. Kod konkretnog feedbacka zabilježi tačan ekran i radnju. „Ne mogu pronaći poruku nakon slanja“ traži opažanje i eventualnu regresiju. „Želim topliju boju“ može biti posve valjana odluka jednog brenda. Zaključke o ukusu ne generalizuj na druge klijente. Nema stvarnog rendera ili ispitivanja korisnika u ovoj fazi.

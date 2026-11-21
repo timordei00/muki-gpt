@@ -1,0 +1,3 @@
+# Prompt za nezavisnu tekstualnu reviziju · V3
+
+> Pregledaj priloženi V3 paket kao dokumentaciju. Utvrdi identitet paketa iz README-a, MASTER-a i manifesta. Prati najmanje jednu odluku od P1 istraživanja do P2, P3 ili P4, zavisno od njenog potrošača. Prati i jednu nepotvrđenu tvrdnju. Provjeri može li jednostavna izmjena završiti uz samo jezgro, kako se izvodi novo predviđanje prije kataloga, kako se odobrava trajna izmjena te gdje A mora stati. Za svaki značajan problem daj fajl, odjeljak, suprotni zahtjev ili prazninu, posljedicu i najmanju ispravku. Posebno označi stvarno provjereno i ono što traži izvođenje u A ili B. Ova poruka traži isključivo pregled paketa.

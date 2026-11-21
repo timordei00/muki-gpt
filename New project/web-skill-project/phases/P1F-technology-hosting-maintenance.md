@@ -1,0 +1,13 @@
+# P1F · Tehnologija, objava i održavanje
+
+Sačuvaj `research/notes-1F.md`. Primijeni granice podataka iz P1D i zahtjeve objave i mjerenja iz P1E. [MASTER](../MASTER.md) određuje ulaze, jezik i predaju.
+
+**Izbor stacka.** Poveži ritam uredničkih izmjena, funkciju, SEO, raspoloživi hosting, vještine održavaoca, budžet i prenosivost s najjednostavnijim pouzdanim rješenjem. Usporedi relevantne predstavnike statičkog HTML/CSS/JS, generatora kao Astro, React SPA, serverskog renderovanja kao Next, CMS-a kao WordPress te hostovanog/no-code rješenja. Prioritet ima postojeći stack kada podržava cilj. Kod forme, računa ili rezervacije jasno prenesi granicu između hostovanog toka i posla koji ostaje na sajtu. Tvrdnje o podršci ili troškovima veži za konkretnu uslugu i datum.
+
+**Gdje konfiguracija djeluje.** Istraži razlike između shared/cPanel hostinga, Apache ili Nginx pravila, CDN-a, serverless i trajnog serverskog procesa. Razmotri TLS, DNS, preusmjeravanja i stvarno primijenjena zaglavlja. Kada javni CDN ili service worker kešira sadržaj, odredi ko smije vidjeti odgovor, kada zastarijeva i kako stara stranica dobija odgovarajuće resurse poslije objave. P1D zadržava vlasništvo nad pravilom pristupa podacima.
+
+**Dostava, rad i oporavak.** Za formu uporedi mogućnosti hostinga, SMTP/transakcijske usluge i vanjskog servisa. Provjeri operativnu ulogu SPF, DKIM i prema potrebi DMARC, moguća ograničenja dostave i ko prati grešku bez čuvanja privatnog sadržaja poruke. Kod bitnih zapisa razdvoji dostupnost kopije i dokaz ponovne uspostave. Kod objave koja mijenja podatke uporedi kompatibilnost stare i nove aplikacije sa shemom, redoslijed promjene i šta se poslije prvog novog upisa smije vratiti. Utvrdi koji signal izaziva reakciju, ko reaguje i kako klijent nastavlja rad za vrijeme oporavka.
+
+**Lokalni kontekst i predaja.** Za stvarno tržište provjeri jezik, dužinu prevoda, pismo i znakove (č, ć, đ, š, ž gdje treba), valutu, datume, vremensku zonu i radno vrijeme. Kontakt, adresa i lokalni SEO imaju jedan potvrđen izvor. Za Maps, analitiku, web font, Viber ili WhatsApp provjeri uslove, privatnost i fallback relevantne konkretnoj integraciji. Pravne obaveze za BiH ili druga tržišta veži za stvarnu obradu i aktuelne službene izvore, a neriješena pitanja uputi stručnoj osobi.
+
+U zaključku daj kriterij za izbor tehnologije, vlasnika domena/DNS-a, hostinga, sadržaja i pošte, način sigurne primopredaje i ponovne provjere nakon tipične izmjene. Za bitnu zavisnost odredi kako primijetiti kvar i gdje je granica oporavka. P1G dobija odluke za odgovarajuće reference i handoff. Ova istraživačka faza ne zahtijeva kupovinu, puštanje u produkciju ili pristup tajnama.

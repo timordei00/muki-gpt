@@ -1,0 +1,51 @@
+{
+  "buildId": "replace-with-build-id",
+  "siteRoot": "./dist",
+  "publicOrigin": "https://site.example",
+  "baseURL": null,
+  "disposablePreview": false,
+  "viewports": [
+    {
+      "width": 347,
+      "height": 600
+    },
+    {
+      "width": 823,
+      "height": 700
+    }
+  ],
+  "integrations": {},
+  "routes": [
+    {
+      "id": "home",
+      "path": "/",
+      "file": "index.html",
+      "heading": "Replace with the unique heading on this page",
+      "meta": {
+        "title": "Replace with the intended document title",
+        "lang": "bs"
+      },
+      "links": [
+        {
+          "label": "Kontakt",
+          "href": "#kontakt"
+        }
+      ],
+      "required": [
+        "source.meta",
+        "source.links",
+        "manual.primary-task"
+      ],
+      "optional": [
+        "source.copy"
+      ],
+      "manual": {
+        "manual.primary-task": {
+          "kind": "access",
+          "state": "primary navigation, keyboard and increased text",
+          "criterion": "Follow the primary action using only a keyboard. Its focus remains visible and the destination is usable."
+        }
+      }
+    }
+  ]
+}

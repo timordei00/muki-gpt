@@ -1,0 +1,9 @@
+# P0 · Radni prostor i ciljni format
+
+**Pitanje:** može li izvršilac sačuvati rad i na kojim stvarnim mogućnostima smiju počivati P1, P3 i P4? Putanje, zajednički ulazi i završetak navedeni su u [MASTER-u](../MASTER.md).
+
+1. Identificiraj korijen V3, dozvoljeni upis i postojeće stanje. Očuvaj ranije rezultate. Kreiraj ili nastavi `PROJECT_STATUS.md` prema predlošku s tačno autorizovanim opsegom. U `environment-audit.md` zapiši datum i oznaku sesije, zatvori fajl i provjeri može li se ponovo pročitati. Ovo provjerava sadašnji upis. Isti zapis kasnije omogućava provjeru trajnosti bez dodatnog markera.
+2. Provjeri može li se u ciljnom okruženju pretražiti i otvoriti relevantni primarni izvor. Razdvoji dostupnost pretrage od čitanja cijelog dokumenta. Zabilježi konkretan uspjeh ili ograničenje. Ako mreža nedostaje, utvrdi postoje li provjerljivi lokalni izvori s identitetom i izdanjem.
+3. Iz stvarne dokumentacije ciljne platforme provjeri format paketa i metapodataka, način ručnog poziva, uslove otkrivanja i instalacije. Standard formata može opravdati prenosivi paket uz otvoreno pitanje platformskog ponašanja. Za buduću aktivaciju ostavi `NOT TESTED`. Stari korisnikovi skillovi nisu ulaz.
+4. Za P4 evidentiraj prisutnost Nodea i package managera i dostupne verzije. Razdvoji zatečeni alat, dozvolu instalacije i stvarno pokretanje. Ako nema browsera ili paketa, P4 može napisati pripremu uz navedene preduslove za B. Za inventar dovoljni su lokalni podaci. Instalacija, server i otvaranje prazne stranice ne dokazuju vrijednost budućeg skilla.
+5. Predaj P1 ograničenja istraživanja, P3 dokumentovan format i radnu lokaciju, a P4 dostupne alate. Za svako ograničenje navedi konkretnu posljedicu. Ako nije moguće trajno sačuvati radne fajlove u ovoj sesiji, to je stvarni blokator. `environment-audit.md` i status moraju se moći otvoriti prije napredovanja.

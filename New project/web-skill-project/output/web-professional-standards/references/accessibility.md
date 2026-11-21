@@ -1,0 +1,9 @@
+# Accessibility
+
+Aim for WCAG 2.2 AA on the changed flow. Identify the visitor’s task, supported languages, relevant assistive technology and all states through completion. Assess criteria with their applicable exceptions.
+
+- Prefer native links, buttons, inputs and headings. Give controls persistent labels and accessible names matching visible labels where required. Tie instructions and errors to their fields. Announce meaningful asynchronous outcomes without moving focus unnecessarily. Supply text alternatives according to the purpose of media and captions where applicable.
+- Complete the task using only a keyboard. Check logical order, visible focus, escape or return according to the selected pattern, and that author-created content does not entirely obscure focused controls (2.4.11). A disclosure and a modal have different focus requirements. Check accessible name, role, value and status with an assistive technology appropriate to the audience.
+- For normal text use a contrast ratio of at least 4.5:1, or 3:1 for qualifying large text, subject to the criterion’s exceptions. Check meaningful non-text boundaries and states separately. Communicate meaning beyond color alone.
+- Assess text resize to 200%, reflow at the equivalent of 320 CSS px for horizontally written content, and user text-spacing overrides. Preserve exceptions for content requiring two-dimensional layout. Check target size of 24 by 24 CSS px or an applicable exception such as sufficient spacing. Test a touch path for hover, dragging or gesture-dependent work.
+- With reduced motion and media alternatives active, the same essential information and actions must remain available. Record the route, state, environment, action, observable outcome and any remaining gap. An automated scan covers a subset of criteria in the states it actually saw. [WCAG 2.2](https://www.w3.org/TR/WCAG22/)
